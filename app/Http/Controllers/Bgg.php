@@ -8,7 +8,7 @@ class Bgg extends Controller
 {function bgg() {
     $gamelist=[
         [
-            'id'=> '1'
+            'id'=> 1
             ,'name'=>'Carcassone',
             'gametype'=>'German',
             'players'=>'2 a 8',
@@ -16,7 +16,7 @@ class Bgg extends Controller
 
         ],
         [
-            'id'=>'2'
+            'id'=>2
             ,'name'=>'Avalon',
             'gametype'=>'Deduzione',
             'players'=>'5 a 10',
@@ -24,7 +24,7 @@ class Bgg extends Controller
 
         ],
         [
-            'id'=>'3'
+            'id'=>3
             ,'name'=>'Magic - The Gathering',
             'gametype'=>'Tgc',
             'players'=>'2 a 6',
@@ -32,7 +32,7 @@ class Bgg extends Controller
 
         ],
         [
-            'id'=>'4'
+            'id'=>4
             ,'name'=>'Scotland Yard',
             'gametype'=>'American',
             'players'=>'2 a 6',
