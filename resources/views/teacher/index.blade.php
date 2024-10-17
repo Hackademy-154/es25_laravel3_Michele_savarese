@@ -13,18 +13,7 @@
         </div>
         <div class="row justify-content-center align-items-center text-center">
             @foreach ($teachers as $teacher)
-           <div class="col-12 col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img src="{{$teacher['img']}}" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">{{$teacher['name']}}</h5>
-                  <p class="card-text">
-                    <h4>Tipologia gioco:</h4> {{$teacher['gametype']}} <br>
-                    <h4>Gioco preferito:</h4>{{$teacher['game']}}
-                  </p>
-                  <a href="{{route('teacherDetail',['id'=>$teacher['id']])}}" class="btn btn-primary">Dettaglio docente</a>
-                </div>
-              </div>
+            <x-cardTeacher dataId="{{$teacher['id']}}" name="{{$teacher['name']}}" gametype="{{$teacher['gametype']}}" game="{{$teacher['game']}}" img="{{$teacher['img']}}"/>
            </div>
             @endforeach
         </div>

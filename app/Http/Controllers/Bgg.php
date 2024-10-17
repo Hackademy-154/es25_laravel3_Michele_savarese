@@ -47,7 +47,7 @@ public function gamedetail($id) {
     // dd($id);
     $gamelist=[
         [
-            'id'=> '1'
+            'id'=> 1
             ,'name'=>'Carcassone',
             'gametype'=>'German',
             'players'=>'2 a 8',
@@ -55,7 +55,7 @@ public function gamedetail($id) {
 
         ],
         [
-            'id'=>'2'
+            'id'=>2
             ,'name'=>'Avalon',
             'gametype'=>'Deduzione',
             'players'=>'5 a 10',
@@ -63,7 +63,7 @@ public function gamedetail($id) {
 
         ],
         [
-            'id'=>'3'
+            'id'=>3
             ,'name'=>'Magic - The Gathering',
             'gametype'=>'Tgc',
             'players'=>'2 a 6',
@@ -71,7 +71,7 @@ public function gamedetail($id) {
 
         ],
         [
-            'id'=>'4'
+            'id'=>4
             ,'name'=>'Scotland Yard',
             'gametype'=>'American',
             'players'=>'2 a 6',
