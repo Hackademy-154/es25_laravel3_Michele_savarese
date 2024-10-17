@@ -1,0 +1,3 @@
+@import './public/style.css';
+@import 'bootstrap/dist/css/bootstrap.css';
+/* import 'bootstrap'; per importare direttamente tutta la cartella, farlo anche in js app.js */
